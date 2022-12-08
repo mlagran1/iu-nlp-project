@@ -36,7 +36,7 @@ CHARACTER_MAP = {
 # Load Models
 CV = pickle.load(open(f"{MODELS_PATH}/cv.sav", 'rb'))
 TT = pickle.load(open(f"{MODELS_PATH}/tt.sav", 'rb'))
-SVC = pickle.load(open(f"{MODELS_PATH}/SVC.sav", 'rb'))
+SVC = pickle.load(open(f"{MODELS_PATH}/svc.sav", 'rb'))
 
 # Create Flask App
 app = Flask(__name__)
